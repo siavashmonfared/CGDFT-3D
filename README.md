@@ -2,7 +2,7 @@
 
 # CGDFT_3D: 3D Coarse-Grained Lattice Gas Density Functional Theory
 
-This is a the 2D version. Parallelized with MPI. To run, ensure that proper number of processors are assigned in the input file. 
+This is a the 3D version. Parallelized with MPI. To run, ensure that proper number of processors are assigned in the input file. The visualization shows gas-to-liquid phase transition in a long cylindrical pore. 
 
 ## Building 
 
@@ -12,12 +12,4 @@ mpiexec -np NumProc code
 ```
 
 
-## Visualizing 
-
-To visualize, modify the exec.sh file included based on the number of time steps and frequency of data output. Make sure the dimensions are correct in the python file. Then: 
-
-```
-./exec.sh 
-
-```
 
